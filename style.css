@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#bg{
+    background-color: black;
+    color: white;
+}
+.container{
+    width: 1180px;
+    margin: 0 auto;
+}
+/* ------------------nav--------------------- */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navItem {
+    display: flex;
+    gap: 70px;
+    list-style: none;
+}
+li {
+    font-size: 18px;
+    font-weight: 500;
+}
+/* -----------------bannar------------------------ */
+.bannar {
+    text-align: center;
+    margin: 30px;
+}
+.heroImg {
+    width: 400px;
+}
+.b_title {
+    font-size: 70px;
+    font-weight: 700;
+    width: 656px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.b_pera {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2%;
+    line-height: 24px;
+    width: 646px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.b_btn {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    
+    margin-top: 54px;
+}
+.btn {
+    width: 195px;
+    height: 64px;
+    align-items: center;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+     border-radius: 33px;
+}
+.btn:hover {
+    color: black;
+    background-color: white;
+    transition: .4s;
+}
