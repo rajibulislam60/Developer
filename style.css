@@ -101,3 +101,29 @@ li {
     justify-content: space-around;
     margin-top: 50px;
 }
+/* --------------------experience------------------ */
+.experience  .e_title{
+    text-align: center;
+}
+.e_title {
+    font-size: 24px;
+    font-weight: 700;
+    color: blue;
+    margin-top: 30px;
+}
+.e_c_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.e_c_title {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.e_pera {
+    font-size: 16px;
+    font-weight: 400;
+}
