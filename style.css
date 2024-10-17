@@ -127,3 +127,19 @@ li {
     font-size: 16px;
     font-weight: 400;
 }
+/* ------------------contact-------------------- */
+.contact{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.contact h2{
+    font-size: 28px;
+    font-weight: 700;
+}
+.contact p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contact a {
+    color: white;
+}
